@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  border: solid 1px black;
+  background-color: aqua;
+  width: fit-content;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 5px;
+  font-size: 40px;
+}
+.nav {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+.pic {
+  height: 150px;
+  width: 150px;
+}
+
+a {
+  font-size: 20px;
+}
+
+.nav a {
+  color: #ffffff;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+  float: right;
+}
+
+.nav a:hover {
+  color: black;
+  background-color: #f1f1f1;
+}
+
+.nav li {
+  color: #ffffff;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+}
+
+.midsection {
+  background-color: lightcoral;
+  background-image: url("../1.jpg");
+  background-size: stretch;
+  width: 100%;
+  height: 200px;
+}
+
+h3 {
+  float: right;
+  margin-top: 150px;
+  margin-right: 20px;
+  background-color: aqua;
+  padding: 10px;
+  font-size: large;
+}
+
+.container {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.section {
+  flex: 1;
+  padding-right: 20px;
+  padding-left: 20px;
+  align-self: center;
+}
+
+.section h4 {
+  text-align: right;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.aside {
+  flex: 7;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.nav-content p {
+  text-align: left;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  min-height: 60vh;
+  padding: 10px;
+}
+
+.project1 {
+  flex: 5;
+  border: solid 2px aqua;
+  background-image: url("../5.png");
+  background-size: cover;
+}
+
+.topbox {
+  display: flex;
+  flex-direction: row;
+  min-height: 15vh;
+  /* padding: 0px; */
+  margin: 5px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex: 3;
+}
+
+
+.project2, .project3 {
+  background-image: url(../pic.jpg);
+  background-size: contain;
+  border: solid 2px aqua;
+  flex: 1;
+  margin: 5px;
+}
+
+.lowerbox {
+  display: flex;
+  flex-direction: row;
+  min-height: 15vh;
+  /* padding: 0px; */
+  margin: 5px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex: 3;
+}
+
+.project4, .project5 {
+  background-image: url(../snow.jpg);
+  background-size: contain;
+  border: solid 2px aqua;
+  flex: 1;
+  margin: 5px;
+}
+
+
+.links{ 
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* .links a {
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #333;
+  color: white;
+  padding: 0.5em 0.5em;
+  text-decoration: none;
+} */
+
+
+footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 25px;
+}

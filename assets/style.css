@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.title {
+  border: solid 1px black;
+  background-color: aqua;
+  width: fit-content;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 5px;
+}
+.nav {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+a {
+  font-size: 20px;
+}
+
+.nav a {
+  color: #ffffff;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+  float: right;
+}
+
+.nav a:hover {
+  color: lime;
+  background-color: magenta;
+}
+
+.nav li {
+  color: #ffffff;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+}
+
+.midsection {
+  background-color: lightcoral;
+  background-image: url("../1.jpg");
+  background-size: stretch;
+  width: 100%;
+  height: 200px;
+}
+
+.subtitle {
+  float: right;
+  margin-top: 150px;
+  margin-right: 20px;
+  background-color: aqua;
+  padding: 10px;
+}
+
+.content {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.content-flex {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.nav-title {
+  flex: 1;
+  padding-right: 20px;
+  padding-left: 20px;
+  align-self: center;
+}
+
+.nav-title h4 {
+  text-align: right;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-content {
+  flex: 7;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.nav-content p {
+  text-align: left;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  padding: 10px;
+}
+
+.surf-report {
+  flex: 5;
+  border: solid 2px aqua;
+  background-image: url("splash.jpg");
+  background-size: cover;
+}
+
+.surf-report h4 {
+  border: solid 1px aqua;
+  background-color: aqua;
+}
+
+.mini-boxes {
+  flex: 3;
+  flex-direction: row;
+  display: flex;
+  background-color: red;
+}
+
+
+footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
